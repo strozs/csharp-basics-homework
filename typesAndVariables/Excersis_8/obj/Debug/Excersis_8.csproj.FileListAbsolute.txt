@@ -1,0 +1,7 @@
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\bin\Debug\Excersis_8.exe.config
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\bin\Debug\Excersis_8.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\bin\Debug\Excersis_8.pdb
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\obj\Debug\Excersis_8.csprojAssemblyReference.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\obj\Debug\Excersis_8.csproj.CoreCompileInputs.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\obj\Debug\Excersis_8.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\TypesAndVariables\Excersis_8\obj\Debug\Excersis_8.pdb
