@@ -1,0 +1,6 @@
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\Logic-03\obj\Debug\Logic-03.csproj.CoreCompileInputs.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\Logic-03\bin\Debug\Logic-03.exe.config
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\Logic-03\bin\Debug\Logic-03.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\Logic-03\bin\Debug\Logic-03.pdb
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\Logic-03\obj\Debug\Logic-03.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\Logic-03\obj\Debug\Logic-03.pdb

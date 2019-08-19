@@ -1,0 +1,7 @@
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\obj\Debug\AddNumbers-02.csprojAssemblyReference.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\obj\Debug\AddNumbers-02.csproj.CoreCompileInputs.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\bin\Debug\AddNumbers-02.exe.config
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\bin\Debug\AddNumbers-02.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\bin\Debug\AddNumbers-02.pdb
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\obj\Debug\AddNumbers-02.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Basics\AddNumbers-02\obj\Debug\AddNumbers-02.pdb
