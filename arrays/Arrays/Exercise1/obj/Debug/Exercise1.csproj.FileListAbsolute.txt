@@ -1,0 +1,7 @@
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\bin\Debug\Exercise1.exe.config
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\bin\Debug\Exercise1.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\bin\Debug\Exercise1.pdb
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\obj\Debug\Exercise1.csprojAssemblyReference.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\obj\Debug\Exercise1.exe
+C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise1\obj\Debug\Exercise1.pdb
