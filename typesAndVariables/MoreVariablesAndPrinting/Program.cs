@@ -24,12 +24,6 @@ namespace MoreVariablesAndPrinting
 
             Console.WriteLine($"If I add {age:0.##}, {height:0.##}, and {weight:0.##} I get {age + height + weight:0.##}.");
 
-<<<<<<< Updated upstream
-            Console.WriteLine("If I add " + myAge + ", " + myHeight + ", and " + myWeight
-                               + " I get " + (myAge + myHeight + myWeight) + ".");
-
-=======
->>>>>>> Stashed changes
             Console.ReadKey();
         }
     }
