@@ -60,9 +60,9 @@ Add one more car in the same method, calculate the fuel consumption for both of 
 Modify the Car class of the chapter by adding two methods:
 
   - boolean GasHog()
-    - evaluates to true if the fuel consumption is higher than 15.0 l/km.
+    - evaluates to true if the fuel consumption is higher than 15.0 l / 100 km.
   - boolean EconomyCar()
-    - evaluates to true if the fuel consumption is lower than 5.0 l/km.
+    - evaluates to true if the fuel consumption is lower than 5.0 l / 100 km.
     
 The constructor and the CalculateConsumption() method remain unchanged.
 Each of these new methods should use the CalculateConsumption() to get the consumption,
@@ -134,20 +134,6 @@ During each loop iteration, print the car’s current mileage and amount of fuel
 
 ## Exercise #4
 
-See [DogWalkLauncher](./DogWalkLauncher)
-
-In this exercise, we are going to have two classes, Dog and DogOwner.
-A dog needs to be take for a walk if it had a drink more than 4 hours ago. 
-
-The class Dog, has three methods:
-  - SetDrinkTime(int), which allows the time of drinking to be specified as an integer;
-  - GetDrinkTime(), which returns the time of drinking;
-  - NeedsToGo(), which is true if the dog needs to be taken for a walk.
-  
-When you have created both of the classes test your code by using Main Method.
-
-## Exercise #5
-
 The class Movie is started below. An instance of class Movie represents a film. 
 This class has the following three class variables:
 
@@ -162,14 +148,13 @@ This class has the following three class variables:
  while the class variable rating is set to "PG".
  3. Write a method GetPG, which takes an array of base type Movie as its argument,
  and returns a new array of only those movies in the input array with a rating of "PG".
- You may assume the input array is full of Movie instances. The returned array need not be full.
+ You may assume the input array is full of Movie instances. The returned array may be empty.
  4. Write a piece of code that creates an instance of the class Movie:
-    - with the title “Casino Royale”, the studio “Eon Productions” and the rating “PG­13”.
-    - with the title “Glass”, the studio “Buena Vista International” and the rating “PG­13”.
-    - with the title “Spider-Man: Into the Spider-Verse”, the studio “Columbia Pictures” and
- the rating “PG”.
+    - with the title “Casino Royale”, the studio “Eon Productions” and the rating “PG­13”;
+    - with the title “Glass”, the studio “Buena Vista International” and the rating “PG­13”;
+    - with the title “Spider-Man: Into the Spider-Verse”, the studio “Columbia Pictures” and the rating “PG”.
 
-## Exercise #6
+## Exercise #5
 
 Create a class called *Date* that includes: three pieces of information as instance variables — a month, a
 day and a year.
@@ -182,19 +167,19 @@ Provide a method DisplayDate that displays the month, day and year separated by 
 
 Write a test application named DateTest that demonstrates class *Date* capabilities.
 
-## Exercise #7
+## Exercise #6
 
-A soft drink company recently surveyed 12,467 of its customers and found that approximately
-14 percent of those surveyed purchase one or more energy drinks per week.
-Of those customers who purchase energy drinks, approximately 64 percent of them prefer
-citrus flavored energy drinks. Write a program that displays the following:
+See [EnergyDrinks](./EnergyDrinks)
+
+A soft drink company recently surveyed 12,467 of its customers and found that approximately 14 percent of those surveyed purchase one or more energy drinks per week.
+Of those customers who purchase energy drinks, approximately 64 percent of them prefer citrus flavored energy drinks.
+
+Write a program that displays the following:
 
  - The approximate number of customers in the survey who purchased one or more energy drinks per week
  - The approximate number of customers in the survey who prefer citrus flavored energy drinks
- 
-See [EnergyDrink]
 
-## Exercise #8
+## Exercise #7
 
 The questions in this exercise all deal with a class Dog that you have to program from scratch. 
 
@@ -220,10 +205,10 @@ The questions in this exercise all deal with a class Dog that you have to progra
     - referenceToSparky.FathersName() returns the string "Unknown"
   - Change the dog class to include a method boolean HasSameMotherAs(Dog otherDog).
  The method should return true on the call
-    - referenceToCoco.hasSameMotherAs(referenceToRocky). 
+    - referenceToCoco.HasSameMotherAs(referenceToRocky). 
  Show that the new method works in the DogTest main method.
 
-## Exercise #9
+## Exercise #8
 
 Design a SavingsAccount class that stores a savings account’s annual interest rate and balance.
 
@@ -268,7 +253,7 @@ Interest earned: $29,977.72
 Ending balance: $42,030.72
 ```
 
-## Exercise #10
+## Exercise #9
 
 Write a method named SwapPoints that accepts two Points as parameters and swaps their x/y values.
 
@@ -289,7 +274,7 @@ The output produced from the above code should be:
 (5, 2)
 ```
 
-## Exercise #11
+## Exercise #10
 
 Finish [BankAccount](./BankAccount)
 
@@ -315,7 +300,7 @@ For example, if the same object had a balance of -17.5, your method should retur
 Benson, $17.50
 ```
 
-## Exercise #12
+## Exercise #11
 
 See [VideoStore](./VideoStore)
 
@@ -362,7 +347,7 @@ Summary of design specs:
     - the average rating,
     - and whether it is checked out or on the shelves.
 
-## Exercise #13
+## Exercise #12
 
 See [Account](./Account)
 

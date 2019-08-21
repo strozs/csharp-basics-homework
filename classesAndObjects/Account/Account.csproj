@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A462DDE-D798-4818-BB68-2116834B0035}</ProjectGuid>
+    <ProjectGuid>{A78CD5DF-1FF9-4A14-A78F-7AED668C98A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BankAccount</RootNamespace>
-    <AssemblyName>BankAccount</AssemblyName>
+    <RootNamespace>Account</RootNamespace>
+    <AssemblyName>Account</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
