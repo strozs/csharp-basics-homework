@@ -6,8 +6,9 @@ namespace PositiveNegativeNumber
     {
         static void Main(string[] args)
         {
+            // Return what kind of number is it, positive or negative
             Console.WriteLine("Enter the number.");
-            var input = (int)(Console.ReadKey().KeyChar);
+            var input = Convert.ToInt32(Console.ReadLine());
 
 
             if (input > 0){
