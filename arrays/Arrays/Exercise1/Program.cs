@@ -23,8 +23,8 @@ namespace Exercise1
             };
 
 
-            //fixme
-            //Console.WriteLine("Original numeric array : " + myArray1);
+            
+            
             foreach (var item in myArray1)
             {
                 Console.Write(item + " ");
@@ -33,7 +33,7 @@ namespace Exercise1
             Console.WriteLine();
             Console.WriteLine();
             //Sort array
-            //Console.WriteLine("Sorted numeric array : " + Array.Sort(myArray1));
+            
             Array.Sort(myArray1);
             foreach (var item in myArray1)
             {
@@ -42,7 +42,7 @@ namespace Exercise1
 
             Console.WriteLine();
             Console.WriteLine();
-            //Console.WriteLine("Original string array : " + );
+            
             foreach (var item in myArray2)
             {
                 Console.Write(item + " ");
@@ -51,7 +51,7 @@ namespace Exercise1
             Console.WriteLine();
             Console.WriteLine();
             //Sort array
-            //Console.WriteLine("Sorted string array : " + );
+            
             Array.Sort(myArray2);
             foreach (var item in myArray2)
             {

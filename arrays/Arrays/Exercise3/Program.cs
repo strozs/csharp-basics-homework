@@ -10,19 +10,11 @@ namespace Exercise3
         {
             int[] numbers = {20, 30, 25, 35, -16, 60, -100};
 
-            /*
-            fixme - calculate sum of all array elements 
-            int sum = 0;
-            for (?){
-                
-            }
-            */
             int sum = numbers.Sum();
             Console.WriteLine("Sum value of the array elements is : " + sum);
 
             int average = sum / numbers.Length;
             
-            //fixme - calculate average value 
             Console.WriteLine("Average value of the array elements is : " + average);
             
 

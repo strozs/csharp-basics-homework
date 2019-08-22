@@ -5,3 +5,10 @@ C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise
 C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
 C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise3\obj\Debug\Exercise3.exe
 C:\Git_Extensions\csharp-syllabus\csharp-basics\exercises\Arrays\Arrays\Exercise3\obj\Debug\Exercise3.pdb
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\bin\Debug\Exercise3.exe.config
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\bin\Debug\Exercise3.exe
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\bin\Debug\Exercise3.pdb
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\obj\Debug\Exercise3.csprojAssemblyReference.cache
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\obj\Debug\Exercise3.exe
+D:\Codelex\csharp-basics-homework\arrays\Arrays\Exercise3\obj\Debug\Exercise3.pdb
