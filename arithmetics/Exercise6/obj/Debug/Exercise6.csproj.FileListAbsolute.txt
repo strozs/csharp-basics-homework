@@ -1,0 +1,7 @@
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\bin\Debug\Exercise6.exe.config
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\bin\Debug\Exercise6.exe
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\bin\Debug\Exercise6.pdb
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\obj\Debug\Exercise6.csprojAssemblyReference.cache
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\obj\Debug\Exercise6.csproj.CoreCompileInputs.cache
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\obj\Debug\Exercise6.exe
+D:\Codelex\csharp-basics-homework\arithmetics\Exercise6\obj\Debug\Exercise6.pdb
