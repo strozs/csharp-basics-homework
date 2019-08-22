@@ -23,9 +23,11 @@ namespace FuelConsumptionCalculator
             Console.Write("Enter liters consumed: ");
             liters = Convert.ToDouble(Console.ReadLine());
 
-            //Car car = new Car( ?, ?, ?);
+            Car car = new Car( startKilometers, endKilometers, liters);
 
-            //  Console.WriteLine("Kilometers per liter are " + car.calculateConsumption());
+            Console.WriteLine("Kilometers per liter are " + car.CalculateConsumption());
+
+            Console.ReadLine();
         }
     }
 }

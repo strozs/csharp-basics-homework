@@ -1,1 +1,6 @@
 .vs
+classesAndObjects/FuelConsumptionCalculator/bin/
+classesAndObjects/FuelConsumptionCalculator/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.csproj.FileListAbsolute.txt
+classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.exe
+classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.pdb
