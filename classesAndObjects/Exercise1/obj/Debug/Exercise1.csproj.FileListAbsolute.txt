@@ -1,0 +1,7 @@
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\bin\Debug\Exercise1.exe.config
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\bin\Debug\Exercise1.exe
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\bin\Debug\Exercise1.pdb
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\obj\Debug\Exercise1.csprojAssemblyReference.cache
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\obj\Debug\Exercise1.exe
+D:\Codelex\csharp-basics-homework\classesAndObjects\Exercise1\obj\Debug\Exercise1.pdb
