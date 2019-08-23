@@ -21,7 +21,31 @@ namespace FuelConsumptionCalculator
 
         public double CalculateConsumption() // Kilometers per litre
         {
-            return (_endKilometers - _startKilometers) / _liters;
+            return (_endKilometers - _startKilometers) * _liters / 100;
+        }
+
+        public bool GasHog()
+        {
+            if (CalculateConsumption() >= 15)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool EconomyCar()
+        {
+            if (CalculateConsumption() <= 5)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

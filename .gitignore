@@ -1,11 +1,3 @@
-/**/.vs/*
-/**/obj/*
-/**/bin/*
-*/.vs/*
-*/obj/*
-*/bin/*
-
-
 #Ignore thumbnails created by Windows
 Thumbs.db
 #Ignore files built by Visual Studio
@@ -37,3 +29,15 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+/classesAndObjects/Account/obj/Debug/Account.csproj.CoreCompileInputs.cache
+/classesAndObjects/BankAccount/obj/Debug/BankAccount.csproj.CoreCompileInputs.cache
+/classesAndObjects/EnergyDrinks/obj/Debug/EnergyDrinks.csproj.CoreCompileInputs.cache
+/classesAndObjects/Exercise1/obj/Debug/Exercise1.csproj.CoreCompileInputs.cache
+/classesAndObjects/FuelConsumptionCalculator/bin/Debug/FuelConsumptionCalculator.exe
+/classesAndObjects/FuelConsumptionCalculator/bin/Debug/FuelConsumptionCalculator.pdb
+/classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.csproj.CoreCompileInputs.cache
+/classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.csprojAssemblyReference.cache
+/classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.exe
+/classesAndObjects/FuelConsumptionCalculator/obj/Debug/FuelConsumptionCalculator.pdb
+/classesAndObjects/VideoStore/obj/Debug/VideoStore.csproj.CoreCompileInputs.cache
