@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #Ignore thumbnails created by Windows
 Thumbs.db
@@ -30,3 +31,8 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+=======
+/**/.vs/*
+/**/.obj/*
+/**/.bin/*
+>>>>>>> feeb64442db7a1bbdb4f44c34817ef208574804c
