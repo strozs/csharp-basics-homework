@@ -1,7 +1,0 @@
-D:\Codelex\csharp-basics-homework\loops\Exercise10\bin\Debug\Exercise10.exe.config
-D:\Codelex\csharp-basics-homework\loops\Exercise10\bin\Debug\Exercise10.exe
-D:\Codelex\csharp-basics-homework\loops\Exercise10\bin\Debug\Exercise10.pdb
-D:\Codelex\csharp-basics-homework\loops\Exercise10\obj\Debug\Exercise10.csprojAssemblyReference.cache
-D:\Codelex\csharp-basics-homework\loops\Exercise10\obj\Debug\Exercise10.csproj.CoreCompileInputs.cache
-D:\Codelex\csharp-basics-homework\loops\Exercise10\obj\Debug\Exercise10.exe
-D:\Codelex\csharp-basics-homework\loops\Exercise10\obj\Debug\Exercise10.pdb
