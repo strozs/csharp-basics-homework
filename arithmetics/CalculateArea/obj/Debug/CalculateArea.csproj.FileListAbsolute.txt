@@ -1,7 +1,0 @@
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\bin\Debug\CalculateArea.exe.config
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\bin\Debug\CalculateArea.exe
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\bin\Debug\CalculateArea.pdb
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\obj\Debug\CalculateArea.csprojAssemblyReference.cache
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\obj\Debug\CalculateArea.csproj.CoreCompileInputs.cache
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\obj\Debug\CalculateArea.exe
-D:\Codelex\csharp-basics-homework\arithmetics\CalculateArea\obj\Debug\CalculateArea.pdb

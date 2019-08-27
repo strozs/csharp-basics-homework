@@ -1,6 +1,0 @@
-D:\Codelex\csharp-basics-homework\arithmetics\Exercise5\bin\Debug\Exercise5.exe.config
-D:\Codelex\csharp-basics-homework\arithmetics\Exercise5\bin\Debug\Exercise5.exe
-D:\Codelex\csharp-basics-homework\arithmetics\Exercise5\bin\Debug\Exercise5.pdb
-D:\Codelex\csharp-basics-homework\arithmetics\Exercise5\obj\Debug\Exercise5.csproj.CoreCompileInputs.cache
-D:\Codelex\csharp-basics-homework\arithmetics\Exercise5\obj\Debug\Exercise5.exe
-D:\Codelex\csharp-basics-homework\arithmetics\Exercise5\obj\Debug\Exercise5.pdb
