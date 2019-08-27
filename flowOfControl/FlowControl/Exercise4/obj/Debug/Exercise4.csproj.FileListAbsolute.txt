@@ -1,7 +1,0 @@
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\bin\Debug\Exercise4.exe.config
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\bin\Debug\Exercise4.exe
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\bin\Debug\Exercise4.pdb
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\obj\Debug\Exercise4.csprojAssemblyReference.cache
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\obj\Debug\Exercise4.csproj.CoreCompileInputs.cache
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\obj\Debug\Exercise4.exe
-D:\Codelex\csharp-basics-homework\flowOfControl\FlowControl\Exercise4\obj\Debug\Exercise4.pdb
