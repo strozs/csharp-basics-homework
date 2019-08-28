@@ -1,7 +1,0 @@
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\bin\Debug\FuelConsumptionCalculator.exe.config
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\bin\Debug\FuelConsumptionCalculator.exe
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\bin\Debug\FuelConsumptionCalculator.pdb
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\obj\Debug\FuelConsumptionCalculator.csprojAssemblyReference.cache
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\obj\Debug\FuelConsumptionCalculator.csproj.CoreCompileInputs.cache
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\obj\Debug\FuelConsumptionCalculator.exe
-D:\Codelex\csharp-basics-homework\classesAndObjects\FuelConsumptionCalculator\obj\Debug\FuelConsumptionCalculator.pdb
