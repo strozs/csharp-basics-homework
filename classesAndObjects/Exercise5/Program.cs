@@ -10,8 +10,8 @@ namespace Exercise5
     {
         static void Main(string[] args)
         {
-            var date = DateTime.Now.ToString("M/d/yyyy");
-            Console.WriteLine(date);
+            Date date = new Date();
+            date.DisplayDate();
 
             Console.ReadKey();
         }

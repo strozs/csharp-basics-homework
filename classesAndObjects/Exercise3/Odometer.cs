@@ -8,7 +8,7 @@ namespace Exercise3
 {
     class Odometer
     {
-        FuelGauge fuelGauge = new FuelGauge();
+        //FuelGauge fuelGauge = new FuelGauge();
 
         private int _milage;
         
@@ -26,6 +26,7 @@ namespace Exercise3
         {
             if(_milage % 10 == 0)
             {
+                FuelGauge fuelGauge = new FuelGauge();
                 fuelGauge.TakeFuel();
             }
         }

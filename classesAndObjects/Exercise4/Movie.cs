@@ -11,6 +11,7 @@ namespace Exercise4
         private string _title;
         private string _studio;
         private string _rating;
+        
 
         public Movie (string title, string studio, string ratings)
         {
@@ -26,9 +27,11 @@ namespace Exercise4
             _rating = "PG";
         }
 
-        public void GetPG()
+        public void PrintInfo ()
         {
-            
+            Console.WriteLine($"Title: {_title}");
+            Console.WriteLine($"Studio: {_studio}");
+            Console.WriteLine($"Raing: {_rating}");
         }
     }
 }

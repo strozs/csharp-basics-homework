@@ -8,6 +8,8 @@ namespace Exercise3
 {
     class FuelGauge
     {
+        //Odometer odometer = new Odometer();
+
         private int _amountOfFuel = 10;
         private int _maxFuel = 70;
 
@@ -16,11 +18,11 @@ namespace Exercise3
             Console.WriteLine($"Curren fuel level is {_amountOfFuel}");
         }
 
-        public void AddFuel()
+        public void AddFuel(int fuel)
         {
             if(_amountOfFuel < _maxFuel)
             {
-                _amountOfFuel++;
+                _amountOfFuel += fuel;
             }
         }
 

@@ -18,7 +18,11 @@ namespace Exercise1
             phone.PrintProduct();
             speakers.PrintProduct();
 
-            mouse.AddAmount();
+            mouse.AddAmount(8); // Ads to mouse amount
+            mouse.LowerAmount(2);
+
+            mouse.AddPrice(5);
+            mouse.LowerPrice(1);
 
             mouse.PrintProduct();
 

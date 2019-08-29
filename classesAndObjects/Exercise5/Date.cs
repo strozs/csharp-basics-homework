@@ -8,10 +8,17 @@ namespace Exercise5
 {
     class Date
     {
-        private int _month;
-        private int _day;
-        private int _year;
+        private string _month;
+        private string _day;
+        private string _year;
 
-        
+        public void DisplayDate ()
+        {
+            _day = DateTime.Now.ToString("dd");
+            _month = DateTime.Now.ToString("MM");
+            _year = DateTime.Now.ToString("yyyy");
+
+            Console.WriteLine($"Current date is: {_day}/{_month}/{_year}");
+        }
     }
 }

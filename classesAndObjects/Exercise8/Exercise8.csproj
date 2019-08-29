@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FCC007C-DD8E-40D3-9080-690E3A5BCACE}</ProjectGuid>
+    <ProjectGuid>{C84FFFE4-F2C1-4640-BD6F-37B7588D2841}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EnergyDrinks</RootNamespace>
-    <AssemblyName>EnergyDrinks</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Exercise8</RootNamespace>
+    <AssemblyName>Exercise8</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Survey.cs" />
+    <Compile Include="SavingsAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

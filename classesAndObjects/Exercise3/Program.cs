@@ -13,7 +13,9 @@ namespace Exercise3
             FuelGauge fuelGauge = new FuelGauge();
             Odometer odometer = new Odometer();
 
-            for (int i = 0; i < 50; i++)
+            fuelGauge.AddFuel(25);
+
+            for (int i = 0; i < 20; i++)
             {
                 odometer.ReportMilage();
                 fuelGauge.ReportFuel();
@@ -23,7 +25,7 @@ namespace Exercise3
                     odometer.AddMilage();
                 }
 
-                odometer.BurnFuel();
+                fuelGauge.TakeFuel();
 
                 Console.WriteLine();
             }

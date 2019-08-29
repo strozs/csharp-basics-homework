@@ -13,6 +13,10 @@ namespace Exercise4
             Movie casino = new Movie("Casino Royale", "Eon Productions", "PG13");
             Movie glass = new Movie("Glass", "Buena Vista International", "PG13");
             Movie spider = new Movie("Glass", "Buena Vista International");
+
+            casino.PrintInfo();
+
+            Console.ReadKey();
         }
     }
 }

@@ -24,9 +24,24 @@ namespace Exercise1
             Console.WriteLine($"{_name}, price {_priceAtStart}, amount {_amountAtStart}");
         }
 
-        public void AddAmount()
+        public void AddAmount(int amount)
         {
-            _amountAtStart++;
+            _amountAtStart += amount;
+        }
+
+        public void LowerAmount(int amount)
+        {
+            _amountAtStart -= amount;
+        }
+
+        public void AddPrice(double amount)
+        {
+            _priceAtStart += amount;
+        }
+
+        public void LowerPrice(double amount)
+        {
+            _priceAtStart -= amount;
         }
     }
 }
