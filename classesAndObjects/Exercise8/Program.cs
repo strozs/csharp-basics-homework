@@ -10,9 +10,6 @@ namespace Exercise8
     {
         static void Main(string[] args)
         {
-            //decimal monthlyDeposit = 0;
-            //decimal monthlyWithdrawel = 0;
-
             Console.Write("How much money is in the account?: ");
             decimal balance = decimal.Parse(Console.ReadLine());
 
@@ -23,6 +20,8 @@ namespace Exercise8
             decimal howLongOpen = decimal.Parse(Console.ReadLine());
 
             SavingsAccount savingsAccount = new SavingsAccount(balance);
+            decimal montlyIntrest = savingsAccount.MonthlyInterest(interest);
+            decimal sumMonthlyIntrest;
 
             Console.WriteLine();
 
@@ -36,9 +35,16 @@ namespace Exercise8
                 decimal monthlyWithdrawel = decimal.Parse(Console.ReadLine());
                 savingsAccount.Withdrawal(monthlyWithdrawel);
 
+
                 Console.WriteLine();
             }
             savingsAccount.PrintBlance();
+            sumMonthlyIntrest = savingsAccount.ReturnBalance() * montlyIntrest;
+
+            Console.WriteLine($"Interest earned: ${sumMonthlyIntrest.ToString("#.##")}");
+            Console.WriteLine($"Total deposited: ${savingsAccount.TotalDeposite}");
+            Console.WriteLine($"Total withdrawn: ${savingsAccount.TotalWithdrawn}");
+            Console.WriteLine($"Ending balance: ${(savingsAccount.ReturnBalance() + sumMonthlyIntrest).ToString("#.##")}");
 
             Console.ReadKey();
         }

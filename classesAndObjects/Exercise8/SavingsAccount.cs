@@ -10,6 +10,8 @@ namespace Exercise8
     {
         private decimal _balance;
         private decimal _intrestRate;
+        public decimal TotalDeposite;
+        public decimal TotalWithdrawn;
 
         public SavingsAccount (decimal startingBalance)
         {
@@ -19,22 +21,30 @@ namespace Exercise8
         public void Withdrawal (decimal subtracting)
         {
             _balance -= subtracting;
+            TotalWithdrawn -= subtracting;
         }
 
         public void Depposit(decimal depposit)
         {
             _balance += depposit;
+            TotalDeposite += depposit;
         }
 
-        public void MonthlyInterest ()
+        public decimal MonthlyInterest (decimal annualIntrest)
         {
-            decimal intrestAmount = _balance * _intrestRate;
-            _balance += intrestAmount;
+            return annualIntrest / 12;
         }
 
         public void PrintBlance ()
         {
-            Console.WriteLine($"Your balance is {_balance}");
+            Console.WriteLine($"Your balance is ${_balance}");
         }
+
+        public decimal ReturnBalance ()
+        {
+            return _balance;
+        }
+
+
     }
 }
