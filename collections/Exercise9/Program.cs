@@ -12,6 +12,9 @@ namespace Exercise9
         {
             Console.WriteLine("Hello World!");
 
+            PhoneDirectory jeff = new PhoneDirectory();
+            jeff.PutNumber("Jeff", "24354657");
+
             Console.ReadKey();
         }
     }
