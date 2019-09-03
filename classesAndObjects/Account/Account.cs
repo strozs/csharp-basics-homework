@@ -36,7 +36,8 @@ namespace Account
 
         public static void Transfer(Account from, Account to, double howMuch)
         {
-            from.balance() - howMuch;
+            from.withdrawal(howMuch);
+            to.deposit(howMuch);
         }
     }
 }
