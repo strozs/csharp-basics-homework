@@ -9,7 +9,7 @@ namespace Exercise7
 {
     class Program
     {
-        private const string Path = "D:/Codelex/csharp-basics-homework/collections/Exercise7/flights.txt";
+        private const string Path = "C:/Users/Andris/csharp-basics-homework/collections/Exercise7/flights.txt";
         static void Main(string[] args)
         {
             List<string> flights = File.ReadAllLines(Path).ToList();
@@ -24,17 +24,6 @@ namespace Exercise7
                 listOfCities.Add(flights[i].Substring(0, flights[i].IndexOf("->")));
             }
 
-            /*Console.WriteLine("List of cities: ");
-            foreach (var item in listOfCities)
-            {
-                Console.WriteLine(item);
-            }*/
-
-
-
-            /*Console.WriteLine("What would you like to do:");
-            Console.WriteLine("To display list of the cities press 1");
-            Console.WriteLine("To exit program press 0");*/
             string input = "";
             while (input != "0")
             {
