@@ -44,7 +44,7 @@ namespace Minesweeper.Core
 
         public void OnClick(bool recursiveCall = false)
         {
-
+            CellState = CellState.Opened;
         }
 
         /// <summary>

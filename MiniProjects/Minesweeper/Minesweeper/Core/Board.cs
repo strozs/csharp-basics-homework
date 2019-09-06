@@ -14,6 +14,7 @@ namespace Minesweeper.Core
         public int Height { get; set; }
         public int NumMines { get; set; }
         public Cell[,] Cells { get; set; }
+        private bool _firstClick { get; set; }
 
         public Board(Minesweeper minesweeper, int width, int height, int mines)
         {
@@ -26,19 +27,46 @@ namespace Minesweeper.Core
 
         public void SetupBoard()
         {
-            var c = new Cell
+            
+            for (int i = 0; i < this.Height; i++)
             {
-                CellState = CellState.Closed,
-                CellType = CellType.Regular,
-                CellSize = 50,
-                Board = this
-            };
-            c.SetupDesign();
-            c.MouseDown += Cell_MouseClick;
+                for (int j = 0; j < this.Width; j++)
+                {
+                    var c = new Cell
+                    {
+                        CellState = CellState.Closed,
+                        CellType = CellType.Regular,
+                        CellSize = 50,
+                        Board = this,
+                        XLoc = i,
+                        YLoc = j
+                    };
+                    c.SetupDesign();
+                    c.MouseDown += Cell_MouseClick;
 
-            this.Cells[0, 0] = c;
-            this.Minesweeper.Controls.Add(c);
+                    this.Cells[0, 0] = c;
+                    this.Minesweeper.Controls.Add(c);
+                }
+            }
+
         }
+
+        public void InitValues()
+        {
+            var placeMines = 0;
+            var random = new Random();
+            while (placeMines <= NumMines)
+            {
+                var width = random.Next(Width);
+                var height = random.Next(Height);
+                if (Cells[height, width].CellState == CellState.Closed && Cells[height, width].CellType != CellType.Mine)
+                {
+
+                }
+                Cells[height, width].CellType = CellType.Mine;
+            }
+        }
+
 
         private void Cell_MouseClick(object sender, MouseEventArgs e)
         {
