@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise9
 {
-    class PhoneEntry
+    public class PhoneEntry
     {
         public string name;
         public string number;
