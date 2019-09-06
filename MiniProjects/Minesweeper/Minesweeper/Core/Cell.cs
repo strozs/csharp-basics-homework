@@ -30,7 +30,7 @@ namespace Minesweeper.Core
 
         public void SetupDesign()
         {
-            //this.BackColor = SystemColors.ButtonFace;
+            this.BackColor = Color.AntiqueWhite;
             this.Location = new Point(XLoc * CellSize, YLoc * CellSize);
             this.Size = new Size(CellSize, CellSize);
             this.UseVisualStyleBackColor = false;
@@ -45,6 +45,9 @@ namespace Minesweeper.Core
         public void OnClick(bool recursiveCall = false)
         {
             CellState = CellState.Opened;
+            ForeColor = GetCellColour();
+            BackColor = Color.DarkTurquoise;
+            Text = NumMines > 0 ? NumMines.ToString() : CellType == CellType.Mine ? Text = "*" : string.Empty;
         }
 
         /// <summary>

@@ -15,6 +15,7 @@ namespace Minesweeper.Core
         public int NumMines { get; set; }
         public Cell[,] Cells { get; set; }
         private bool _firstClick { get; set; }
+        public bool GameOver { get; set; }
 
         public Board(Minesweeper minesweeper, int width, int height, int mines)
         {
@@ -61,9 +62,23 @@ namespace Minesweeper.Core
                 var height = random.Next(Height);
                 if (Cells[height, width].CellState == CellState.Closed && Cells[height, width].CellType != CellType.Mine)
                 {
-
+                    Cells[height, width].CellType = CellType.Mine;
+                    for (int i = height - 1; i < height + 2; i++)
+                    {
+                        for (int j = height - 1; j < width + 2; j++)
+                        {
+                            if (i < Height && i >= 0 && j < Width && j >= 0)
+                            {
+                                if (Cells[i,j].CellType != CellType.Mine)
+                                {
+                                    Cells[i, j].NumMines++;
+                                }
+                            }
+                        }
+                    }
+                    placeMines++;
+                    Cells[height, width].Text = "*";
                 }
-                Cells[height, width].CellType = CellType.Mine;
             }
         }
 
