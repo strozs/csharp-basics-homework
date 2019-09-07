@@ -8,52 +8,48 @@ namespace Exercise9
 {
     public class PhoneDirectory
     {
-        public SortedDictionary<string, string> _data;
-        private int _dataCount;
+        public static SortedDictionary<string, int> _data = new SortedDictionary<string, int>();
         private string _name;
-        private string _number;
+        private int _number;
 
-        public PhoneDirectory(string name, string number)
+        public PhoneDirectory(string name, int number)
         {
-            _name = name;
-            _number = number;
+            this._name = name;
+            this._number = number;
             _data.Add(name, number);
         }
 
-        /*private int Find(string name)
+        public void PrintData ()
         {
-            for (var i = 0; i < _dataCount; i++)
+            Console.WriteLine($"Name: {_name}   Number: {_number}");
+        }
+
+
+        public static void PrintAll()
+        {
+            foreach (KeyValuePair<string, int> pair in _data)
             {
-                if (_data[i].name.Equals(name))
+                Console.WriteLine($"{pair.Key}  {pair.Value}");
+            }
+        }
+
+        public static void GetNumber(string name)
+        {
+            bool found = false;
+
+            foreach (KeyValuePair<string, int> pair in _data)
+            {
+                if (pair.Key == name)
                 {
-                    return i;
+                    Console.WriteLine($"{pair.Value}");
+                    found = true;
                 }
             }
-            return -1;
-        } */
 
-        public string GetNumber(string name)
-        {
-            string value = "";
-            if (_data.TryGetValue(name, out value))
+            if (found == false)
             {
-                return value;
-            }
-            else
-            {
-                return null;
+                Console.WriteLine($"Person was not found!");
             }
         }
-
-        /* public void PutNumber(string name, string number)
-        {
-            if (name == null || number == null)
-            {
-                throw new Exception("name and number cannot be null");
-            }
-
-            _data.Add(name, number);
-            _dataCount++;
-        } */
     }
 }
