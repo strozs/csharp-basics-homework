@@ -9,7 +9,7 @@ namespace Exercise7
 {
     class Program
     {
-        private const string Path = "C:/Users/Andris/csharp-basics-homework/collections/Exercise7/flights.txt";
+        private const string Path = "D:/Codelex/csharp-basics-homework/collections/Exercise7/flights.txt";
         static void Main(string[] args)
         {
             List<string> flights = File.ReadAllLines(Path).ToList();
@@ -46,9 +46,81 @@ namespace Exercise7
                     string input2 = Console.ReadLine();
                     if (input2 == "1")
                     {
-                        Console.WriteLine("Enter from witch citie you woul like to start");
-                        string input3 = Console.ReadLine();
+                        string input3 = "";
+                        string input4 = "";
+                        Console.WriteLine("Enter from witch citie you would like to start");
+                        input3 = Console.ReadLine();
 
+
+                        if (input3 == "San Jose")
+                        {
+                            Flights.fromSJ();
+                            input4 = Console.ReadLine();
+                        }
+                        else if (input3 == "New York")
+                        {
+                            Flights.fromNY();
+                            input4 = Console.ReadLine();
+                        }
+                        else if (input3 == "Anchorage")
+                        {
+                            Flights.fromA();
+                            input4 = Console.ReadLine();
+                        }
+                        else if (input3 == "Honolulu")
+                        {
+                            Flights.fromH();
+                            input4 = Console.ReadLine();
+                        }
+                        else if (input3 == "Denver")
+                        {
+                            Flights.fromD();
+                            input4 = Console.ReadLine();
+                        }
+                        else if (input3 == "San Francisco")
+                        {
+                            Flights.fromSF();
+                            input4 = Console.ReadLine();
+                        }
+
+
+
+                        do
+                        {
+                            if (input4 == "San Jose")
+                            {
+                                Flights.fromSJ();
+                                input4 = Console.ReadLine();
+                            }
+                            else if (input4 == "New York")
+                            {
+                                Flights.fromNY();
+                                input4 = Console.ReadLine();
+                            }
+                            else if (input4 == "Anchorage")
+                            {
+                                Flights.fromA();
+                                input4 = Console.ReadLine();
+                            }
+                            else if (input4 == "Honolulu")
+                            {
+                                Flights.fromH();
+                                input4 = Console.ReadLine();
+                            }
+                            else if (input4 == "Denver")
+                            {
+                                Flights.fromD();
+                                input4 = Console.ReadLine();
+                            }
+                            else if (input4 == "San Francisco")
+                            {
+                                Flights.fromSF();
+                                input4 = Console.ReadLine();
+                            }
+                        } while (input3 != input4);
+
+                        Console.WriteLine($"Your Rout Will Be: {Flights.Route}{input4}");
+                        break;
                     }
                 }
             }
