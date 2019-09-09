@@ -8,12 +8,12 @@ namespace Exercise7
 {
     class Flights
     {
-        public static string SJ = "San Jose";
-        public static string NY = "New York";
-        public static string A = "Anchorage ";
-        public static string H = "Honolulu ";
-        public static string D = "Denver";
-        public static string SF = "San Francisco";
+        public static string SJ = "San Jose (SJ)";
+        public static string NY = "New York (NY)";
+        public static string A = "Anchorage (A)";
+        public static string H = "Honolulu (H)";
+        public static string D = "Denver (D)";
+        public static string SF = "San Francisco (SF)";
         public static string Route;
 
         public static void fromSJ()

@@ -9,7 +9,7 @@ namespace Exercise7
 {
     class Program
     {
-        private const string Path = "D:/Codelex/csharp-basics-homework/collections/Exercise7/flights.txt";
+        private const string Path = "C:/Users/Andris/csharp-basics-homework/collections/Exercise7/flights.txt";
         static void Main(string[] args)
         {
             List<string> flights = File.ReadAllLines(Path).ToList();
@@ -52,32 +52,32 @@ namespace Exercise7
                         input3 = Console.ReadLine();
 
 
-                        if (input3 == "San Jose")
+                        if (input3 == "San Jose" || input3 == "SJ")
                         {
                             Flights.fromSJ();
                             input4 = Console.ReadLine();
                         }
-                        else if (input3 == "New York")
+                        else if (input3 == "New York" || input3 == "NY")
                         {
                             Flights.fromNY();
                             input4 = Console.ReadLine();
                         }
-                        else if (input3 == "Anchorage")
+                        else if (input3 == "Anchorage" || input3 == "A")
                         {
                             Flights.fromA();
                             input4 = Console.ReadLine();
                         }
-                        else if (input3 == "Honolulu")
+                        else if (input3 == "Honolulu" || input3 == "H")
                         {
                             Flights.fromH();
                             input4 = Console.ReadLine();
                         }
-                        else if (input3 == "Denver")
+                        else if (input3 == "Denver" || input3 == "D")
                         {
                             Flights.fromD();
                             input4 = Console.ReadLine();
                         }
-                        else if (input3 == "San Francisco")
+                        else if (input3 == "San Francisco" || input3 == "SF")
                         {
                             Flights.fromSF();
                             input4 = Console.ReadLine();
@@ -87,32 +87,32 @@ namespace Exercise7
 
                         do
                         {
-                            if (input4 == "San Jose")
+                            if (input4 == "San Jose" || input4 == "SJ")
                             {
                                 Flights.fromSJ();
                                 input4 = Console.ReadLine();
                             }
-                            else if (input4 == "New York")
+                            else if (input4 == "New York" || input4 == "NY")
                             {
                                 Flights.fromNY();
                                 input4 = Console.ReadLine();
                             }
-                            else if (input4 == "Anchorage")
+                            else if (input4 == "Anchorage" || input4 == "A")
                             {
                                 Flights.fromA();
                                 input4 = Console.ReadLine();
                             }
-                            else if (input4 == "Honolulu")
+                            else if (input4 == "Honolulu" || input4 == "H")
                             {
                                 Flights.fromH();
                                 input4 = Console.ReadLine();
                             }
-                            else if (input4 == "Denver")
+                            else if (input4 == "Denver" || input4 == "D")
                             {
                                 Flights.fromD();
                                 input4 = Console.ReadLine();
                             }
-                            else if (input4 == "San Francisco")
+                            else if (input4 == "San Francisco" || input4 == "SF")
                             {
                                 Flights.fromSF();
                                 input4 = Console.ReadLine();
